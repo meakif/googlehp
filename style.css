@@ -19,7 +19,6 @@ body {
     flex-direction: column;
 }
 
-/* Header */
 header {
     height: 60px;
 }
@@ -73,7 +72,7 @@ header {
 }
 
 .user-icon {
-    background-color: #EF6C00;
+    background-color: #f70bf7;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -81,7 +80,6 @@ header {
     line-height: 30px;
 }
 
-/* Content */
 .content-section {
     flex-grow: 1;
     display: flex;
@@ -155,11 +153,11 @@ header {
 }
 
 .google-search-btn {
-    width: 120px;
+    width: 140px;
 }
 
 .lucky-search-btn {
-    width: 140px;
+    width: 250px;
 }
 
 .language {
@@ -175,7 +173,6 @@ header {
     text-decoration: underline;
 }
 
-/* Footer */
 footer {
     background-color: #F2F2F2;
     height: 100px;
@@ -229,9 +226,9 @@ footer {
     margin-left: 15px;
 }
 
-/* Mobile and Tablet */
 @media only screen and (max-width: 650px) {
-    /* Navbar */
+
+
     .navbar ul {
         font-size: 10px;
     }
@@ -246,12 +243,12 @@ footer {
         width: 30px;
     }
 
-    /* Logo */
+
     .logo-img {
         width: 200px;
     }
 
-    /* Search Bar */
+   
     .search-bar {
         width: 90%;
         height: 35px;
@@ -261,7 +258,7 @@ footer {
         font-size: 14px;
     }
 
-    /* Buttons */
+  
     .search-btns button {
         height: 30px;
         font-size: 12px;
@@ -270,17 +267,17 @@ footer {
     .google-search-btn {
         width: 100px;
     }
-    
+
     .lucky-search-btn {
         width: 120px;
     }
 
-    /* Language */
+
     .language {
         font-size: 12px;
     }
 
-    /* Footer */
+   
     footer {
         height: 150px;
     }
